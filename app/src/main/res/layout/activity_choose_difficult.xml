@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/levelbackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/levelBackMenu"
+            android:background="@drawable/back"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/button"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:fontFamily="@font/baloo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:paddingBottom="30dp"
+            android:fontFamily="@font/baloo"
+            android:text="Difficulty levels"
+/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="10dp">
+            <Button
+                android:id="@+id/btn1"
+                android:text="8 board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menubutton"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            >
+            <Button
+                android:id="@+id/btn2"
+                android:text="15 board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menubutton" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="10dp">
+            <Button
+                android:id="@+id/btn3"
+                android:text="24 board"
+                android:textColor="@color/fontofbuttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menubutton" />
+
+            <Button
+                android:id="@+id/howToPlayBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="how to play?" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
